@@ -358,11 +358,9 @@
   - Board orientation:
     - Board can run parallel to the studs (vertical) or perpendicular (horizontal). Most contractors prefer horizontal.
     - For ceiling heights of 8 ft 1 in (2464 mm) or less, horizontal is best because it reduces cost.
-My notes are above and cover all 15 images. None were irrelevant, but four are front matter:
 - **7964** is the book cover.
 - **7966–7969** are table-of-contents pages. 7966 is a blurrier copy of 7967.
 
-The textbook notes cover Chapter 1 (Partitions), pages 1-1 to 1-15. Three things in them need checking:
 - **Page 1-3 (IMG 7972):** the page number isn't visible; I placed it by the pages on either side.
 - **Table 1.2 (IMG 7973):** one row reads "5 ft (3050 mm)", but 3050 mm is 10 ft, so one of the two numbers is a misprint.
 - **Control joint spacing (IMG 7977):** I read it as "not to exceed 50 ft (15 m)", but the photo is hard to read. Industry sources often give 30 ft (9 m) for walls, so check the page before the exam.
@@ -889,13 +887,10 @@ The textbook notes cover Chapter 1 (Partitions), pages 1-1 to 1-15. Three things
     - A 24 × 24 grid adds cross tees at the center of each 24 × 48 opening.
     - A ceiling angle runs around the perimeter and columns (Fig 2.5), and odd-sized tiles are cut to fit.
   - **Fig 2.2**: (a) standard T-bar, wire-suspended with ceiling angle; (b) tegular tile; (c) concealed grid.
-I've already sent you the full notes above, so there's nothing more to add. They cover all 15 images, and all are textbook pages: Ch 1 Partitions, pp 1-16 to 1-41, and the start of Ch 2 Ceilings, pp 2-1 to 2-3.
 
-Two images are hard to read, so check them against the book:
 - **IMG 7989 (pp 1-34 to 1-35):** the photo is rotated and small, so a few numbers are uncertain. The biggest one is the structural clay tile thicknesses.
 - **IMG 7993 (p 2-1):** it shows only the right-hand page.
 
-Next time I'll save the full notes to a file and send you a short summary with its location, so less text piles up here.
 ### Ch 2 (Ceilings), pp 2-4 to 2-5 — Suspended Acoustical Ceilings (cont.): Concealed Spline, Access, Tolerances
 - **Key terms**:
   - **Retention clips**: clips fitted above ceiling tiles so the tiles can't be pushed up out of the grid. Required for fire-rated assemblies when retention is called for.
@@ -1261,7 +1256,6 @@ Next time I'll save the full notes to a file and send you a short summary with i
     - Most glazing handles the first two but doesn't insulate. Radiant heat alone can ignite nearby combustibles without flame passing through.
     - **1-hour corridor partitions need 45-min opening protection**, but their doors may be **20-min**.
     - Other 1-hour partitions (occupancy separations, 1-hour stairways) need **60-min** opening protection. See Ch 19.
-The complete study notes are in my previous message, and that version is final. It covers all 14 images; 8007 (p. 5-1) had one irrelevant side, a left page that is the end of a Chapter 4 hardware table, which I skipped. I didn't save them to a file, since you asked for the notes back as markdown.
 ### Ch 5 (Glazing), pp 5-8 to 5-9 — Fire-Rated Glazing; Bent Glass; Decorative Laminated Glass; Electrochromic Glazing
 *(Book: Interior Construction & Detailing, PPI)*
 
@@ -1735,4 +1729,3 @@ The complete study notes are in my previous message, and that version is final. 
     - Table 16.2 gives the International Plumbing Code maximums.
     - Peninsula or island sinks with no wall behind them need special venting.
   - **Fig 16.11, planning for drain lines**: The drain depth is set by its slope and its highest point above the stack connection. Callouts include 1/4 in/ft (6 mm/300 mm), a suspended ceiling, a soil stack, and a distance of about 15 in (380 mm) that varies.
-Noted: for future runs, I'll write the full notes to a file in the scratchpad and return a summary of 2K tokens or less, plus the file path. This run is finished, and the complete notes for images 8011–8024 are in my previous message.
