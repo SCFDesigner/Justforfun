@@ -358,8 +358,6 @@
   - Board orientation:
     - Board can run parallel to the studs (vertical) or perpendicular (horizontal). Most contractors prefer horizontal.
     - For ceiling heights of 8 ft 1 in (2464 mm) or less, horizontal is best because it reduces cost.
-- **7964** is the book cover.
-- **7966–7969** are table-of-contents pages. 7966 is a blurrier copy of 7967.
 
 - **Page 1-3 (IMG 7972):** the page number isn't visible; I placed it by the pages on either side.
 - **Table 1.2 (IMG 7973):** one row reads "5 ft (3050 mm)", but 3050 mm is 10 ft, so one of the two numbers is a misprint.
