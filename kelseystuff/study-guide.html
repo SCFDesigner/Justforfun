@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Interior Construction Exam Notes</title>
+<style>
+  @page { size: letter; margin: 0.5in 0.55in; }
+  :root { --ink:#1d1d1f; --muted:#5b5b66; --accent:#2f5d8a; --ch1:#2f5d8a; --ch2:#3b7a57; --ch5:#8a4f2f; --ch16:#6b3f8a; --line:#d9dce3; --soft:#f3f5f9; --warn:#fff4d6; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; color: var(--ink); background:#fff; font-size: 9.6pt; line-height: 1.38; margin: 0; }
+  h1 { font-size: 22pt; margin: 0 0 4px; }
+  h2 { font-size: 15pt; margin: 0 0 6px; padding: 6px 10px; color: #fff; border-radius: 4px; break-after: avoid; }
+  h3 { font-size: 11pt; margin: 12px 0 4px; color: var(--accent); border-bottom: 1.5px solid var(--line); padding-bottom: 2px; break-after: avoid; }
+  h4 { font-size: 9.8pt; margin: 8px 0 2px; break-after: avoid; }
+  p { margin: 3px 0; }
+  ul { margin: 2px 0 4px; padding-left: 16px; }
+  li { margin: 1px 0; }
+  .sub { color: var(--muted); font-size: 10pt; }
+  .chapter { break-before: page; }
+  .ch1 h2 { background: var(--ch1); } .ch1 h3 { color: var(--ch1); }
+  .ch2 h2 { background: var(--ch2); } .ch2 h3 { color: var(--ch2); }
+  .ch5 h2 { background: var(--ch5); } .ch5 h3 { color: var(--ch5); }
+  .ch16 h2 { background: var(--ch16); } .ch16 h3 { color: var(--ch16); }
+  .top h2 { background: #333; }
+  dl.terms { columns: 2; column-gap: 18px; margin: 4px 0; }
+  dl.terms div { break-inside: avoid; margin: 0 0 4px; }
+  dl.terms dt { font-weight: 700; display: inline; }
+  dl.terms dd { display: inline; margin: 0; }
+  dl.terms dd::before { content: " — "; color: var(--muted); }
+  .two { columns: 2; column-gap: 18px; }
+  .two > * { break-inside: avoid; }
+  table { border-collapse: collapse; width: 100%; margin: 4px 0 8px; font-size: 8.8pt; break-inside: avoid; }
+  th, td { border: 1px solid var(--line); padding: 2px 5px; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  .box { background: var(--soft); border-left: 4px solid var(--accent); padding: 6px 10px; margin: 6px 0; break-inside: avoid; border-radius: 3px; }
+  .warn { background: var(--warn); border-left-color: #c99a00; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .grid2 > * { break-inside: avoid; }
+  .tag { font-size: 8pt; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<!-- ============ PAGE 1: HOW TO USE + MUST-KNOWS ============ -->
+<section class="top">
+<h1>Emergency Study Guide</h1>
+<p class="sub"><i>Interior Construction &amp; Detailing</i> (Ballast, 6th ed.) · Ch 1 Partitions · Ch 2 Ceilings · Ch 5 Glazing · Ch 16 Lighting (16-11 to 16-21)</p>
+<div class="box"><b>How to use this:</b> Read this page first (the highest-yield facts). Then skim each chapter's <b>Key Terms</b> and <b>Main Points</b>. The tables are there for number-heavy questions. Page references (e.g., p 1-12) point back to the book.</div>
+
+<h2>Top Must-Knows (if you only read one page)</h2>
+<div class="two">
+<h4>Partitions (Ch 1)</h4>
+<ul>
+<li><b>Gypsum wallboard</b> is the most common partition and ceiling material. The finished assembly is framing + board + trim + taped joints.</li>
+<li><b>Type X</b> is fire-rated board. Gypsum resists fire because its <b>water of crystallization</b> turns to steam and absorbs heat.</li>
+<li>Most common commercial board is <b>⅝ in</b> on metal studs at <b>24 in o.c.</b> Use ½ in on studs at 16 in o.c.</li>
+<li>Most common metal stud is <b>25 gage</b>. A higher gage number means thinner steel. Most common stud depth is <b>2½ in</b>, followed by 3⅝ in.</li>
+<li><b>1-hr partition</b> (the most common rated wall) needs Type X, runs to the structure above, has all joints sealed, a <b>slip joint</b> at the top, and <b>fire dampers</b> in ducts.</li>
+<li><b>2-hr partitions</b> separate occupancies and enclose stairs and elevator shafts.</li>
+<li><b>STC</b> (Sound Transmission Class): higher is better. At STC 25 normal speech is heard clearly. At STC 50 loud speech is not audible.</li>
+<li><b>Levels of finish run 0–5.</b> Level 1 is for plenums. Level 4 is the typical finish. <b>Level 5</b> adds a skim coat, for gloss paint or harsh lighting.</li>
+<li><b>Resilient channel</b> separates the board from the studs to cut sound transmission.</li>
+<li>Three-coat plaster goes <b>scratch → brown → finish</b>. <b>Veneer plaster</b> is a thin coat over "blueboard" gypsum lath.</li>
+<li><b>Demountable/movable partitions</b> have a higher first cost but a lower life-cycle cost. They carry <b>no fire rating</b> and can't hide plumbing.</li>
+<li><b>Glass block</b> is never loadbearing, is laid in <b>stack bond</b>, needs expansion joints at the top and sides, and its supports may deflect no more than <b>L/600</b>.</li>
+</ul>
+<h4>Ceilings (Ch 2)</h4>
+<ul>
+<li><b>Suspended acoustical (lay-in)</b> is the most common commercial ceiling. It is cheap, fast to install, absorbs sound, and gives access to the plenum. Tiles absorb sound but don't block it.</li>
+<li>Grid: <b>main runners at 4 ft o.c.</b> on hanger wires, with <b>cross tees</b> every 2 ft. A <b>ceiling angle</b> trims the perimeter.</li>
+<li>Common tile sizes are <b>24×24</b> and <b>24×48</b> in. <b>20×60</b> tiles fit a 5-ft planning module.</li>
+<li>The <b>plenum</b> is the space above the ceiling. If it is a return-air plenum, only noncombustible materials are allowed, and wiring must be in conduit or plenum-rated.</li>
+<li><b>Seismic Design Category A–F</b> is set by a <b>structural engineer</b> from soil class, risk category, and location. <b>D/E/F</b> are the strictest.</li>
+<li><b>Risk Category IV</b> covers essential facilities (hospitals with surgery or ER, fire and police stations). Its importance factor is 1.5.</li>
+</ul>
+<h4>Glazing (Ch 5)</h4>
+<ul>
+<li><b>Float glass</b> is the most common, basic (annealed) glass. <b>Tempered</b> glass is about <b>4× stronger</b>, breaks into small cubes, and <b>can't be cut after tempering</b>.</li>
+<li><b>Laminated</b> glass uses a <b>PVB</b> interlayer that holds broken pieces together. It counts as safety glass, can be cut, and helps with acoustics and security.</li>
+<li><b>Wired glass</b> is fire-rated but <b>not</b> safety glazing, because it can't be tempered.</li>
+<li>Five fire-rated glazing types: <b>wired, clear ceramic, gel-filled, tempered, and some glass block</b>.</li>
+<li>Fire-rated glazing label letters: <b>W</b> = wall, <b>OH</b> = openings, <b>D</b> = doors. <b>H/NH</b> = passes or fails the hose stream test. <b>T/NT</b> = passes or fails the temperature-rise test.</li>
+<li><b>Safety glazing</b> is required in <b>hazardous locations</b>: doors, tubs and showers, glass within 24 in of a door, and railings. It is tested to <b>16 CFR 1201</b>. <b>Category II</b> (400 ft-lbf) is required for panels over 9 ft² and for all doors.</li>
+<li><b>¼ in</b> is the standard interior glass thickness. Two-way mirrors need the observed room <b>5×</b> brighter than the observation room.</li>
+</ul>
+<h4>Lighting (Ch 16)</h4>
+<ul>
+<li>Lamp families: <b>incandescent/halogen</b>, <b>fluorescent</b> (needs a <b>ballast</b>), <b>HID</b> (mercury vapor, metal halide, HPS), <b>LED</b>, and <b>neon/cold-cathode</b>.</li>
+<li><b>Incandescent</b> is cheap, dims easily, and has warm color, but it has low efficacy, a short life, and high heat.</li>
+<li><b>LED</b> lasts more than 50,000 hr, uses little power, and is digitally controllable.</li>
+<li><b>HPS</b> is very efficient (80–140 lm/W) but gives yellow light.</li>
+<li><b>Emergency lighting</b> must provide at least <b>1 fc</b> at the floor, with exit signs at every exit door.</li>
+<li><b>ASHRAE 90.1</b> requires automatic shutoff in buildings over 5000 ft². Occupant sensors must turn lights off within <b>30 min</b>.</li>
+<li><b>Daylighting</b> reaches about <b>2.5 × window head height</b> into a room. <b>Light shelves</b> bounce light deeper. Photocell dimming saves <b>50–60%</b> of perimeter lighting energy.</li>
+<li>Plumbing: <b>traps</b> block sewer gas and <b>vents</b> keep traps from siphoning. Drain lines slope at least <b>¼ in/ft</b>.</li>
+</ul>
+</div>
+</section>
+
+<!-- ============ CHAPTER 1 ============ -->
+<section class="chapter ch1">
+<h2>Chapter 1 — Partitions</h2>
+<p class="sub">Gypsum wallboard · Lath &amp; plaster · Lime plaster · GRG · Masonry · Glass block · Demountable/movable</p>
+
+<h3>Key Terms</h3>
+<dl class="terms">
+<div><dt>Partition</dt><dd>An interior wall that divides space. It also supports doors and glazing and houses electrical and plumbing.</dd></div>
+<div><dt>Gypsum wallboard ("gyp board," drywall)</dt><dd>A gypsum core between paper facings. It is the most common, most versatile partition material.</dd></div>
+<div><dt>Mastic application</dt><dd>Gluing board directly to a substrate such as block or concrete instead of fastening it to framing.</dd></div>
+<div><dt>Tapered edge</dt><dd>The standard long edge of a board. It is recessed so tape and compound sit flush.</dd></div>
+<div><dt>Square edge</dt><dd>An edge used for base layers, under veneer plaster, or where looks don't matter.</dd></div>
+<div><dt>Shaft wall (core) board</dt><dd>A 1 in thick, 2 ft wide board for enclosing shafts.</dd></div>
+<div><dt>Type X (fire-rated) board</dt><dd>Board with mineral additives (vermiculite, glass fiber) in the core that improve fire resistance. It is required in rated walls.</dd></div>
+<div><dt>Water of crystallization</dt><dd>Water bound in gypsum (about 50% by volume). In a fire it turns to steam and absorbs heat.</dd></div>
+<div><dt>Water-resistant board</dt><dd>A tile backer for damp areas. It is <i>not</i> allowed in saunas, steam rooms, gang showers, on ceilings, or over vapor retarders.</dd></div>
+<div><dt>Abuse-resistant board</dt><dd>Board that resists surface damage, penetration, and security breaches. Used in lobbies, hospital corridors, and gyms.</dd></div>
+<div><dt>Sound-deadening board</dt><dd>Board that reduces sound. One type has a viscoelastic polymer core between gypsum layers.</dd></div>
+<div><dt>Mold-resistant board</dt><dd>Board with a paper face replaced by an inorganic (fiberglass mat) facing, so mold has nothing to feed on.</dd></div>
+<div><dt>Foil-backed board</dt><dd>Board with a foil vapor barrier, used when remodeling exterior walls and ceilings. The foil faces the framing.</dd></div>
+<div><dt>Prefinished board</dt><dd>Board with vinyl already applied, used in demountable systems.</dd></div>
+<div><dt>Dry / wet bending</dt><dd>Bending board onto closely spaced studs for curves. Wetting the board allows a tighter radius.</dd></div>
+<div><dt>Gage</dt><dd>Steel stud thickness. <b>A higher number means thinner steel</b>; 25 ga is the most common.</dd></div>
+<div><dt>Runners (tracks)</dt><dd>C-shaped floor and ceiling channels that hold the studs.</dd></div>
+<div><dt>Dimpled stud</dt><dd>A stud whose rolled dimples work-harden the steel. It uses less steel, and its limiting heights are 15–25% higher.</dd></div>
+<div><dt>Slip joint</dt><dd>A top-of-wall joint that lets the structure above deflect without cracking the board. It is required for rated partitions.</dd></div>
+<div><dt>Top deflection track</dt><dd>A proprietary top runner with intumescent material that allows up to 1 in of deflection.</dd></div>
+<div><dt>Intumescent</dt><dd>A material that swells and chars in heat, sealing against fire and smoke.</dd></div>
+<div><dt>H-stud</dt><dd>A stud for <b>area separation walls</b>, which act as firebreaks between apartments or condos.</dd></div>
+<div><dt>Shaft wall liner / shaft lining</dt><dd>A 2-hr enclosure around stairs, elevators, or dumbwaiters, with board on one side.</dd></div>
+<div><dt>L/120, L/240, L/360</dt><dd>Deflection limits (L = length). L/120 is the code maximum. L/240 is recommended for brittle finishes.</dd></div>
+<div><dt>Furring</dt><dd>Small framing members that give board something to attach to over other construction.</dd></div>
+<div><dt>Hat channel</dt><dd>The most common metal furring, named for its hat-shaped profile.</dd></div>
+<div><dt>Resilient channel</dt><dd>Furring with only one leg attached, which isolates the board and reduces sound transmission.</dd></div>
+<div><dt>Z-furring</dt><dd>Z-shaped furring that gives more depth, for insulation or conduit.</dd></div>
+<div><dt>Corner bead</dt><dd>L-shaped trim for all outside corners, covered with compound.</dd></div>
+<div><dt>LC bead</dt><dd>Edge trim that goes on <i>before</i> the board and is finished with compound. Contractors also call it J or U bead.</dd></div>
+<div><dt>L bead</dt><dd>Like LC bead but with no back flange, so it goes on <i>after</i> the board. Good for remodels.</dd></div>
+<div><dt>U bead</dt><dd>Edge trim with no finishing. The metal stays visible, so it is the cheap option.</dd></div>
+<div><dt>LK bead</dt><dd>Trim with a V edge that fits a kerf in adjacent wood trim.</dd></div>
+<div><dt>Control joint</dt><dd>A joint in large expanses of board where movement is expected.</dd></div>
+<div><dt>Reinforcing tape</dt><dd>Paper or fiberglass tape bedded in joint compound.</dd></div>
+<div><dt>Textured coating</dt><dd>A finish such as "orange peel" that hides minor flaws.</dd></div>
+<div><dt>Fire rating (1-, 2-, 3-, 4-hr)</dt><dd>How long an assembly stops fire, as measured by a lab test.</dd></div>
+<div><dt>STC</dt><dd>Sound Transmission Class, a single-number rating of how well an assembly blocks sound. <b>Higher is better.</b></dd></div>
+<div><dt>Nonrated partition</dt><dd>A wall that runs from the floor to the suspended ceiling only. Common in commercial work.</dd></div>
+<div><dt>Power-actuated fastener</dt><dd>A fastener driven by an explosive charge, used for the bottom runner on concrete.</dd></div>
+<div><dt>Fire damper</dt><dd>A device in a duct that closes where the duct passes through a rated wall.</dd></div>
+<div><dt>Chase wall</dt><dd>Two braced rows of studs spaced apart to hold plumbing or recessed items.</dd></div>
+<div><dt>Soffit</dt><dd>A lowered section of ceiling, for example over cabinets, framed down from the ceiling.</dd></div>
+<div><dt>High-attenuation partition</dt><dd>A double stud row that separates the two sides, reaching about STC 56–60.</dd></div>
+<div><dt>Blocking</dt><dd>¾ in plywood or wood between studs that supports cabinets and wall-hung items.</dd></div>
+<div><dt>Kickers</dt><dd>Braces from the top of a partition up to the structure. Used for heavy doors and cabinets.</dd></div>
+<div><dt>Synthetic gypsum</dt><dd>A byproduct gypsum, mostly from <b>flue gas desulfurization</b> at power plants. It makes up about 28% of the supply.</dd></div>
+<div><dt>Plaster</dt><dd>A cementitious material applied wet that sets hard. The binder is gypsum (typical interiors) or portland cement (wet areas).</dd></div>
+<div><dt>Stucco</dt><dd>Exterior portland cement plaster.</dd></div>
+<div><dt>Keene's cement</dt><dd>Dehydrated gypsum mixed with lime putty, used for extreme abrasion resistance.</dd></div>
+<div><dt>Scagliola</dt><dd>Plaster finished to look like marble.</dd></div>
+<div><dt>Sgraffito</dt><dd>Layered colored plaster with the top layer scratched away to reveal the colors below.</dd></div>
+<div><dt>Marezzo</dt><dd>Imitation marble made from colored Keene's cement.</dd></div>
+<div><dt>Fresco</dt><dd>Painting on wet plaster before it sets.</dd></div>
+<div><dt>Veneer plaster</dt><dd>A very thin coat (1/16–⅛ in) over gypsum lath. It is fast, hard, and cheap, but not allowed in wet areas.</dd></div>
+<div><dt>Gypsum lath ("blueboard")</dt><dd>Blue-faced board made to bond with veneer plaster.</dd></div>
+<div><dt>Diamond mesh / flat rib / rib lath</dt><dd>Expanded metal laths. Diamond mesh bends into curves, flat rib is stiffer (for ceilings), and rib lath suits studless walls.</dd></div>
+<div><dt>Scratch / brown / finish coat</dt><dd>The three plaster coats: scratch (~½ in, bond), brown (~¼ in, leveling), and finish (~⅛ in).</dd></div>
+<div><dt>Lime (Venetian) plaster</dt><dd>Slaked lime putty plus crushed stone. It hardens by reabsorbing CO₂, is flexible and mold-resistant, and has no VOCs.</dd></div>
+<div><dt>Security partition</dt><dd>High-strength plaster over perforated steel sheet, used in jails and vaults.</dd></div>
+<div><dt>GRG (GFRG/FRG)</dt><dd>Glass-fiber-reinforced gypsum cast in molds, used for column covers, domes, and moldings. It is decorative only, never structural.</dd></div>
+<div><dt>Masonry</dt><dd>Brick, concrete block, glass block, clay tile, terra cotta, and gypsum block.</dd></div>
+<div><dt>CMU (concrete block)</dt><dd>A hollow cement-and-aggregate block, typically 8×8×16 in nominal (7⅝×7⅝×15⅝ in actual).</dd></div>
+<div><dt>Nominal dimension</dt><dd>A size that includes the ⅜ in mortar joint and is based on a 4 in module.</dd></div>
+<div><dt>Structural clay tile</dt><dd>A glazed, hard, easy-to-clean unit used in hospitals and food plants.</dd></div>
+<div><dt>Stack bond</dt><dd>Units laid with joints aligned vertically, as glass block is.</dd></div>
+<div><dt>Glass block</dt><dd>A hollow or solid glass unit, nominally 4 in thick ("thin" is 3⅛ in). It is never loadbearing.</dd></div>
+<div><dt>L/600</dt><dd>The deflection limit for members supporting glass block.</dd></div>
+<div><dt>Demountable partition</dt><dd>Prefinished components that can be taken down and reused but otherwise act like a permanent wall.</dd></div>
+<div><dt>Progressive / nonprogressive</dt><dd>In a progressive system, panels must be removed in order (cheaper). In a nonprogressive system, any panel can be removed.</dd></div>
+<div><dt>Movable partition</dt><dd>A wall not attached to the structure, often part of a furniture system. The term is often used interchangeably with demountable.</dd></div>
+<div><dt>COM</dt><dd>Customer's Own Material, a finish the client supplies.</dd></div>
+<div><dt>Class A flame spread</dt><dd>The best (most restrictive) flame-spread class.</dd></div>
+</dl>
+
+<h3>Main Points</h3>
+<div class="two">
+<div>
+<h4>Gypsum wallboard basics (p 1-1 to 1-5)</h4>
+<ul>
+<li>Board widths are 4 ft and 4½ ft. Lengths are 8–14 ft, and installers use the longest practical length to reduce joints.</li>
+<li>Thicknesses are ¼, ⅜, ½, ⅝, and ¾ in.
+  <ul>
+  <li><b>⅝ in:</b> commercial work.</li>
+  <li><b>½ in:</b> residential work.</li>
+  <li><b>⅜ in:</b> double layers and remodels.</li>
+  <li><b>¼ in:</b> curves and resurfacing.</li>
+  <li><b>¾ in:</b> a single layer can give 2 hr.</li>
+  </ul></li>
+<li>Board is usually hung <b>horizontally</b>, which means fewer joints, lower cost, and the board's strongest direction across the studs.</li>
+<li>Board can go on studs, on furring, glued with mastic, or on ceiling framing. Mastic needs clean, smooth, flat surfaces.</li>
+<li>Abuse-resistant board is made with core fibers, tough papers, Lexan or fiberglass backing, or veneer plaster. Impact ratings range from 60 to over 2100 ft-lbf.</li>
+<li>Commercial showers use tile on cement board or a mortar bed, not gypsum.</li>
+</ul>
+<h4>Framing (p 1-5 to 1-11)</h4>
+<ul>
+<li><b>Wood</b> (2×4, actually 1½×3½ in) is used in residential work, where walls can also carry loads. <b>Metal</b> is used in commercial work because it is noncombustible and light.</li>
+<li>Studs are spaced <b>16 or 24 in o.c.</b> 24 in is common for commercial nonloadbearing walls.</li>
+<li>Metal stud depths are 1⅝, 2½, 3⅝, 4, and 6 in. <b>2½ in</b> suits 8–10 ft ceilings. Use deeper studs for pipes, medicine cabinets, and pocket doors.</li>
+<li>Heavier gages (20, 22) are for tall walls, door openings, and cabinets. Structural studs are 12–18 ga.</li>
+<li>Assembly: fasten the runners first, then slip in the studs and screw or crimp them.</li>
+<li>Furring comes as 1×2 wood (minimum), hat channel, resilient channel, or Z-furring.</li>
+<li><b>Six standard trim shapes</b>: corner bead, LC, L, U, LK, and control joint.</li>
+<li>Finishing sequence: tape bedded in compound, then more coats feathered wider, sanding between coats. Screw heads get the same treatment.</li>
+</ul>
+<h4>Fire &amp; sound (p 1-12 to 1-27)</h4>
+<ul>
+<li>Gypsum is naturally fire resistant, and its density makes it a good sound barrier.</li>
+<li>Where each fire rating is used:
+  <ul>
+  <li><b>1-hr:</b> corridors, tenant separations, and house-to-garage walls.</li>
+  <li><b>2-hr:</b> occupancy separations and stair or elevator shafts.</li>
+  <li><b>3–4 hr:</b> some occupancy separations.</li>
+  </ul></li>
+<li>Rules for 1-hr partitions:
+  <ul>
+  <li>Use Type X board and run the wall to the structure above.</li>
+  <li>Seal all joints and penetrations, and put fire dampers in ducts.</li>
+  <li>Allow only <b>one electrical box per stud space, on one side only</b>, with a maximum of 16 in².</li>
+  </ul></li>
+<li>A 2-hr partition has two layers of Type X on each side, or a single layer of proprietary ¾ in board.</li>
+<li>Cracking is worst in <b>high-rises</b>, where buildings deflect and sway. Use slip joints at slabs and relief joints at mullions and columns (½ in gap).</li>
+<li>Ways to add sound control:
+  <ul>
+  <li>More layers of board.</li>
+  <li>Resilient channels.</li>
+  <li>Batt insulation.</li>
+  <li>A double stud row.</li>
+  <li>Sealing every penetration, since leaks ruin the rating.</li>
+  </ul></li>
+<li>Coordinate: floor deflection, horizontal sway, heavy loads (blocking), partition depth, and anchoring (kickers).</li>
+<li>Code references: IBC Tables 721.1(2) and (3), the UL directory, and the GA <i>Fire Resistance Design Manual</i>.</li>
+<li>The IBC requires water-resistant board behind tub and shower tile and on water-closet compartment walls.</li>
+</ul>
+</div>
+<div>
+<h4>Plaster (p 1-28 to 1-33)</h4>
+<ul>
+<li>Plaster's advantages over wallboard:
+  <ul>
+  <li>Single and double curves.</li>
+  <li>Ornate moldings.</li>
+  <li>Many textures.</li>
+  <li>Abrasion resistance.</li>
+  <li>Water resistance, with portland cement.</li>
+  </ul></li>
+<li>Ingredients are a binder, lime, water, and aggregate (sand, perlite, vermiculite). Use a <b>portland cement</b> binder in wet areas, because moisture damages gypsum plaster.</li>
+<li>Three-coat plaster goes over metal lath. Two-coat plaster is mainly a base for tile.</li>
+<li>Veneer plaster is faster, cheaper, and harder, but not allowed in wet areas. Two layers of rated lath give 2 hr.</li>
+<li>Wet areas: use cement backer board, or full lath and plaster for very wet commercial spaces.</li>
+<li>Rated partitions need fire-rated gypsum lath.</li>
+<li>Lime plaster benefits:
+  <ul>
+  <li>Flexible, and small cracks self-heal.</li>
+  <li>Breathable.</li>
+  <li>High pH makes it a biocide that resists mold.</li>
+  <li>No VOCs, and it absorbs CO₂ as it sets.</li>
+  </ul>
+  Over wallboard it needs a Level 4 or 5 finish.</li>
+<li>Plaster control joints go where plaster meets structure, in runs over <b>30 ft</b>, and at building expansion joints.</li>
+<li>Plaster walls need door frames of at least 16 ga steel.</li>
+<li>GRG tips:
+  <ul>
+  <li>Expose one side only.</li>
+  <li>Minimize the number of unique molds.</li>
+  <li>Use draft angles, not 90° corners.</li>
+  <li>Keep joints ≤ ⅜ in wide.</li>
+  <li>Extend curved pieces about 2 in into the flat board.</li>
+  </ul></li>
+</ul>
+<h4>Masonry &amp; glass block (p 1-33 to 1-37)</h4>
+<ul>
+<li>Interior masonry walls are nonloadbearing. A structural engineer must confirm the floor can carry them. Size openings to the <b>4 in module</b>.</li>
+<li>CMU is laid in running bond with joint reinforcement every 16 in vertically. Filling the cells with grout or sand improves sound control.</li>
+<li>Glass block faces are 6×6, 8×8, 12×12, and 4×8 in. Thicknesses are 3⅞ in (standard) and 3⅛ in (thin, common indoors).</li>
+<li>Code requirements for glass block:
+  <ul>
+  <li>Units at least <b>3 in</b> thick.</li>
+  <li>Mortar joints ¼–⅜ in.</li>
+  <li>Expansion joints allowing at least ⅜ in of movement.</li>
+  <li>Stiffeners when a panel exceeds the code maximum.</li>
+  </ul></li>
+<li>Glass block usually has no fire rating. Some assemblies reach 45–90 min in openings up to 100 ft².</li>
+<li>Curved glass block walls need stiffeners at every change of curve direction.</li>
+</ul>
+<h4>Demountable / movable (p 1-36 to 1-41)</h4>
+<ul>
+<li>Components: floor runner, ceiling runner, studs with clips, and prefinished vinyl gypsum panels (24 or 30 in wide, fitting 4 or 5 ft modules).</li>
+<li><b>Operable</b> partitions (Ch 3) open and close often, like doors. <b>Demountable</b> partitions stay put.</li>
+<li><b>Pros:</b>
+  <ul>
+  <li>Fast, clean reconfiguration with no wet compound.</li>
+  <li>Recycled and recyclable materials.</li>
+  <li>Single-source responsibility.</li>
+  <li><b>Tax advantages</b> (treated as equipment).</li>
+  <li>Lower life-cycle cost.</li>
+  <li>Handles uneven floors.</li>
+  </ul></li>
+<li><b>Cons:</b>
+  <ul>
+  <li><b>No fire rating.</b></li>
+  <li>Can't hide plumbing.</li>
+  <li>Limited acoustics (under STC 50 as installed) and limited security.</li>
+  <li>Limited cabinet support.</li>
+  <li>Higher first cost.</li>
+  </ul></li>
+<li>A spiked bottom track sits on carpet. The top track clips to the ceiling grid, so the space plan should align with the ceiling grid.</li>
+<li>Most systems are Class A flame spread.</li>
+</ul>
+</div>
+</div>
+
+<h3>Key Tables — Ch 1</h3>
+<div class="grid2">
+<div>
+<table><tr><th colspan="3">Table 1.1 · Board thickness vs. framing spacing</th></tr>
+<tr><th>Use</th><th>16 in o.c.</th><th>24 in o.c.</th></tr>
+<tr><td>Partitions / Ceilings</td><td>½ in*</td><td>⅝ in</td></tr>
+<tr><td>Furring</td><td>½ in</td><td>½ in</td></tr>
+<tr><td>Mastic (no framing)</td><td>⅜ in</td><td>⅜ in</td></tr>
+<tr><td colspan="3" class="tag">*A fire rating may require ⅝ in Type X</td></tr></table>
+
+<table><tr><th colspan="3">Table 1.5 · STC: what you hear through the wall</th></tr>
+<tr><th>STC</th><th colspan="2">Effect</th></tr>
+<tr><td>25</td><td colspan="2">Normal speech heard clearly</td></tr>
+<tr><td>30</td><td colspan="2">Loud speech understood fairly well</td></tr>
+<tr><td>35</td><td colspan="2">Loud speech heard but not understood</td></tr>
+<tr><td>42–45</td><td colspan="2">Loud speech faint; normal speech not heard</td></tr>
+<tr><td>46–50</td><td colspan="2">Loud speech not audible</td></tr></table>
+
+<table><tr><th colspan="2">Table 1.4 · Max partition height (25 ga, L/120, most common)</th></tr>
+<tr><td>1⅝ in stud</td><td>8'-9"</td></tr><tr><td>2½ in stud</td><td>11'-3"</td></tr>
+<tr><td>3⅝ in stud</td><td>13'-6"</td></tr><tr><td>4 in stud</td><td>14'-3"</td></tr><tr><td>6 in stud</td><td>15'-0"</td></tr>
+<tr><td colspan="2" class="tag">20 ga studs go much higher (e.g., 3⅝ in reaches 19'-1")</td></tr></table>
+</div>
+<div>
+<table><tr><th colspan="3">Levels of Gypsum Board Finish (GA-214)</th></tr>
+<tr><th>Lvl</th><th>Treatment</th><th>Use</th></tr>
+<tr><td>0</td><td>Nothing</td><td>Temporary</td></tr>
+<tr><td>1</td><td>Tape bedded in compound</td><td>Plenums, hidden areas</td></tr>
+<tr><td>2</td><td>+1 coat</td><td>Tile base, garages</td></tr>
+<tr><td>3</td><td>2 coats</td><td>Heavy texture, heavy wallcovering</td></tr>
+<tr><td>4</td><td>3 coats</td><td>Typical: light texture, wallcovering, flat paint</td></tr>
+<tr><td><b>5</b></td><td>Level 4 + <b>skim coat</b> over everything</td><td>Gloss or enamel paint, severe raking light</td></tr></table>
+
+<table><tr><th colspan="3">Table 1.6 · Common partitions (highlights)</th></tr>
+<tr><th>Build</th><th>Rating</th><th>STC</th></tr>
+<tr><td>½ in board on 2×4 wood studs (residential)</td><td>¾ hr</td><td>~30</td></tr>
+<tr><td>⅝ in board on 2½ in studs, to the ceiling only</td><td>none</td><td>~40</td></tr>
+<tr><td>⅝ Type X on 2½ in studs to slab + insulation</td><td>1 hr</td><td>~47</td></tr>
+<tr><td>2 layers ⅝ Type X each side</td><td>2 hr</td><td>~48</td></tr>
+<tr><td>⅝ Type X, resilient channel, 3 in batt</td><td>1 hr</td><td>~54</td></tr>
+<tr><td>Double wood studs on separate plates, 2 layers each side</td><td>2 hr</td><td>~56</td></tr>
+<tr><td>Proprietary studs + 1 in liner panels</td><td>3 hr</td><td>~60</td></tr></table>
+
+<table><tr><th colspan="2">Table 1.9 · Min inside radius, curved glass block</th></tr>
+<tr><td>4 in block</td><td>32 in</td></tr><tr><td>6 in block</td><td>48½ in</td></tr><tr><td>8 in block</td><td>65 in</td></tr><tr><td>12 in block</td><td>98½ in</td></tr></table>
+</div>
+</div>
+<div class="box"><b>Max glass block panel (interior, IBC Table 1.8):</b> Standard units: 250 ft², 20 ft high, 25 ft wide. Thin or solid units: 150 ft².<br>
+<b>Bending radii:</b> Wet bending allows tighter curves than dry. For ¼ in board, dry bending gives a 5 ft radius and wet bending gives 2 ft. Flexible ¼ in board bends even tighter.</div>
+</section>
+
+<!-- ============ CHAPTER 2 ============ -->
+<section class="chapter ch2">
+<h2>Chapter 2 — Ceilings</h2>
+<p class="sub">Suspended acoustical · Seismic · Gypsum wallboard · Plaster · Linear metal · Decorative · Integrated · Abuse-resistant · Metal &amp; wood</p>
+
+<h3>Key Terms</h3>
+<dl class="terms">
+<div><dt>Plenum</dt><dd>The space above a suspended ceiling, used for ducts, wiring, and other services.</dd></div>
+<div><dt>Return air plenum</dt><dd>A plenum that also returns air to the HVAC system. <b>Only noncombustible materials are allowed.</b></dd></div>
+<div><dt>Plenum-rated wiring</dt><dd>Wiring allowed to run exposed in a plenum. All other wiring must be in metal conduit.</dd></div>
+<div><dt>Suspended acoustical ceiling</dt><dd>Mineral, glass-fiber, or wood panels in a metal grid hung on wires. It is the <b>most common</b> commercial ceiling.</dd></div>
+<div><dt>Lay-in system</dt><dd>Panels resting on an exposed T-grid. The most common type.</dd></div>
+<div><dt>Tegular</dt><dd>Lay-in panels with rabbeted (stepped) edges that drop below the grid.</dd></div>
+<div><dt>Concealed grid</dt><dd>A grid hidden by the tiles, usually 1×1 ft tiles. Beveled edges hide misalignment.</dd></div>
+<div><dt>Main runners</dt><dd>Primary grid members, hung on wires at <b>4 ft o.c.</b></dd></div>
+<div><dt>Cross tees</dt><dd>Secondary members that snap into the main runners every 2 ft.</dd></div>
+<div><dt>Ceiling angle</dt><dd>L-shaped trim at the walls that supports edge tiles.</dd></div>
+<div><dt>Concealed spline ceiling</dt><dd>Tiles with kerfed edges that slide onto a hidden grid.</dd></div>
+<div><dt>Upward / downward accessible</dt><dd>Concealed-spline access methods. <b>Upward</b> (tiles pushed up onto Z-clips) is preferred, because the pull-down tool chips tiles.</dd></div>
+<div><dt>Retention (hold-down) clips</dt><dd>Clips that keep tiles from lifting out. They are required for some rated ceilings.</dd></div>
+<div><dt>Rated acoustical ceiling</dt><dd>Rated tiles on a rated grid with hold-down clips and expansion slots. It is only part of a rated floor/ceiling assembly.</dd></div>
+<div><dt>Plenum sound barrier</dt><dd>Construction above a partition that stops sound from traveling over it through the plenum.</dd></div>
+<div><dt>Seismic restraint</dt><dd>Bracing that keeps nonstructural items, such as ceilings, in place during earthquakes.</dd></div>
+<div><dt>Seismic Design Category (A–F)</dt><dd>An IBC rating based on <b>soil class + risk category + location</b>. A is least restrictive and F is most. It is set by a structural engineer.</dd></div>
+<div><dt>Risk (occupancy) category I–IV</dt><dd>How important it is for a building to survive an earthquake. IV covers essential facilities.</dd></div>
+<div><dt>Importance factor</dt><dd>A multiplier per risk category: 1.00 for categories I and II, 1.50 for IV.</dd></div>
+<div><dt>Soil class A–F</dt><dd>Soil ratings from A (hard rock) to F (special soil). <b>Assume D</b> when the soil is unknown.</dd></div>
+<div><dt>CISCA</dt><dd>Ceilings &amp; Interior Systems Construction Association, which publishes seismic ceiling guides (Zones 0–2 for Category C; Zones 3–4 for D/E/F).</dd></div>
+<div><dt>ASCE 7</dt><dd>The standard for minimum design loads, including seismic provisions.</dd></div>
+<div><dt>Compression struts (posts)</dt><dd>Rigid vertical braces from the grid to the structure. Required in D/E/F.</dd></div>
+<div><dt>Splay wires</dt><dd>Diagonal bracing wires at 45° that restrain lateral movement.</dd></div>
+<div><dt>Spacer bars</dt><dd>Bars that keep grid ends from spreading at the perimeter.</dd></div>
+<div><dt>Furring channel (hat)</dt><dd>Light channel that gypsum board ceilings screw to.</dd></div>
+<div><dt>Suspended GWB ceiling</dt><dd>1½ in steel channels at 4 ft plus furring, hung on wires, with board screwed on.</dd></div>
+<div><dt>Ceiling radiation damper</dt><dd>A damper required where a diffuser penetrates a rated ceiling.</dd></div>
+<div><dt>Access panel</dt><dd>A hinged steel door in a board ceiling (about 24 in square) for reaching valves and dampers.</dd></div>
+<div><dt>Cloud</dt><dd>A separate panel suspended below the main ceiling.</dd></div>
+<div><dt>Drapery pocket</dt><dd>A ceiling recess for drapery track or blinds.</dd></div>
+<div><dt>Casing bead</dt><dd>Metal trim at plaster edges.</dd></div>
+<div><dt>Perimeter relief (isolation) joint</dt><dd>A joint that separates a plaster ceiling from walls and structure.</dd></div>
+<div><dt>Linear metal ceiling</dt><dd>Long prefinished aluminum strips clipped to carriers. The gaps let air and sound through.</dd></div>
+<div><dt>Decorative suspended ceiling</dt><dd>Baffles, wood strips, open grids, mirrored panels, and similar, hung on wires or rods.</dd></div>
+<div><dt>Integrated ceiling</dt><dd>One system combining tile, lights, HVAC, sprinklers, and partition attachment, on a 4 or 5 ft module. Good where layouts change often.</dd></div>
+<div><dt>Abuse-resistant ceiling</dt><dd>A ceiling built to resist impact, vandalism, frequent access, or entry. Used in schools, hospitals, and prisons.</dd></div>
+<div><dt>Metal &amp; wood suspended</dt><dd>Aluminum or wood-veneer panels (often perforated) on a grid.</dd></div>
+<div><dt>FSC-certified</dt><dd>Wood from a Forest Stewardship Council–certified forest, which counts as sustainable.</dd></div>
+<div><dt>VOCs</dt><dd>Volatile organic compounds that offgas from materials. Aluminum has none.</dd></div>
+</dl>
+
+<h3>Main Points</h3>
+<div class="two">
+<div>
+<h4>General &amp; suspended acoustical (p 2-1 to 2-7)</h4>
+<ul>
+<li>Ceilings integrate lighting, partition attachment, air diffusers, and speakers, so their detailing is critical.</li>
+<li><b>Three ceiling groups</b>:
+  <ul>
+  <li>Suspended from the structure.</li>
+  <li>Attached directly to the structure.</li>
+  <li>Exposed (the structure is the finish).</li>
+  </ul></li>
+<li><b>Residential:</b> board is screwed directly to the joists. <b>Commercial:</b> wire-suspended systems.</li>
+<li>Advantages of suspended acoustical ceilings:
+  <ul>
+  <li>Low cost.</li>
+  <li>Fast installation.</li>
+  <li>Sound absorption (but <b>not</b> a sound barrier).</li>
+  <li>Flexibility.</li>
+  <li>Easy plenum access.</li>
+  </ul></li>
+<li>Tile sizes: 24×24 and 24×48 are most common. 20×60 fits a <b>5 ft planning module</b> and is often used with demountable partitions.</li>
+<li>Suspended ceilings are installed level within <b>⅛ in in 12 ft</b>, which is more level than floors. That is why critical dimensions are measured from the ceiling down.</li>
+<li>Specify the accessible percentage for concealed-spline ceilings. For example, 25% means a quarter of the tiles can be removed.</li>
+<li>Concealed-spline joints show shadows under grazing light, so use ambient lighting.</li>
+<li>Code: tiles are almost all <b>Class A</b>. Installation follows ASTM <b>C635/C636</b> (E580 for seismic areas).</li>
+<li>A ceiling alone can't stop fire from spreading between floors.</li>
+<li>Plenum sound barrier options:
+  <ul>
+  <li><b>Cheapest:</b> batt insulation on the tiles, 4 ft each side of the wall.</li>
+  <li><b>Better:</b> run the partition to the structure, or hang a gypsum or lead barrier.</li>
+  </ul></li>
+</ul>
+<h4>Seismic (p 2-6 to 2-13)</h4>
+<ul>
+<li>About half of the U.S. has seismic risk. Highest-risk areas:
+  <ul>
+  <li>California.</li>
+  <li>Parts of Utah, Idaho, and Montana.</li>
+  <li>The <b>New Madrid</b> area (the Arkansas–Tennessee–Missouri–Kentucky junction).</li>
+  <li>The Carolina border.</li>
+  <li>Alaska and Hawaii.</li>
+  </ul></li>
+<li>Risk categories:
+  <ul>
+  <li><b>I:</b> low hazard (farm buildings, minor storage).</li>
+  <li><b>II:</b> standard occupancies.</li>
+  <li><b>III:</b> substantial hazard (assembly over 300 people, schools over 250, colleges over 500).</li>
+  <li><b>IV:</b> essential facilities (hospitals with surgery or ER, fire and police stations, shelters, air traffic control).</li>
+  </ul></li>
+<li><b>No special seismic design is needed</b> for:
+  <ul>
+  <li>Categories A and B.</li>
+  <li>Ceilings under 144 ft².</li>
+  <li>Gypsum board suspension systems.</li>
+  <li>Plaster and lath ceilings.</li>
+  </ul></li>
+<li>In D/E/F, partitions must be braced <b>independently</b> of the ceiling. In C, they may attach to the grid only if the ceiling can move laterally.</li>
+<li>D/E/F grids attach on <b>two adjacent walls</b> only. Hanger wires go within 8 in of walls, and struts are placed 12 ft o.c.</li>
+<li>Proprietary seismic clips must be lab-tested.</li>
+</ul>
+</div>
+<div>
+<h4>Coordination (p 2-12)</h4>
+<ul>
+<li>Coordinate recessed lights (clearance), ducts, sprinklers, speakers, smoke detectors, and drapery pockets.</li>
+<li>No combustibles in a return plenum, not even fire-retardant wood.</li>
+<li><b>Don't paint acoustic tile</b>, because paint can kill its sound absorption. Clean or replace it instead.</li>
+<li>Walls that stop at the ceiling need diagonal bracing to the structure when they carry heavy loads.</li>
+</ul>
+<h4>Gypsum wallboard ceilings (p 2-13 to 2-17)</h4>
+<ul>
+<li>Use ½ in board at 16 in o.c. and ⅝ in at 24 in o.c. Most commercial ceilings use 24 in spacing with ⅝ in board. Screws are preferred over nails.</li>
+<li>Commercial assembly: 1½ in channels at 4 ft o.c. on wires, with furring at 16 or 24 in.</li>
+<li>The whole suspension system must be <b>noncombustible</b>. Installation follows GA-216 and ASTM C840, C754, and C1007.</li>
+<li>In rated assemblies, diffusers need radiation dampers and access doors must be rated. In most commercial buildings the <b>floor structure</b>, not the ceiling, provides the rating.</li>
+<li>Board ceilings are smooth but hard to access, and access panels look bad, so limit them to areas without access needs.</li>
+<li>Board can form stepped, coffered, vaulted, and arched shapes.</li>
+<li>Combining board with acoustical tile gives the look of board plus the absorption and access of tile. Transitions use aluminum trim, bulkheads, or clouds.</li>
+</ul>
+<h4>Plaster ceilings (p 2-17 to 2-19)</h4>
+<ul>
+<li>Used for wet areas (public showers, steam rooms) and ornate remodels. Plaster curves in two directions but costs more.</li>
+<li>Commercial assembly: 8 ga wires at 3 ft, 1½ in main runners at 4 ft, cross-furring, lath, and three coats.</li>
+<li>Moldings are either run in place with a template or cast and attached.</li>
+<li>Place relief joints at structure, penetrations, and dissimilar materials.</li>
+<li><b>Control joints are required when the ceiling exceeds 50 ft (with relief joints) or 30 ft (without).</b></li>
+</ul>
+<h4>Specialty ceilings (p 2-19 to 2-22)</h4>
+<ul>
+<li><b>Linear metal:</b> painted or anodized aluminum. The gaps allow sound absorption and return air.</li>
+<li><b>Integrated:</b> higher first cost, but it saves money when layouts change often, so run a life-cycle cost analysis.</li>
+<li><b>Abuse-resistant ceilings, by level:</b>
+  <ul>
+  <li><b>Light</b> (commercial kitchens): faced tile.</li>
+  <li><b>Heavy:</b> snap-in metal panels.</li>
+  <li><b>Maximum security:</b> heavy steel planks with tamper-proof fasteners.</li>
+  </ul>
+  Plaster and gypsum versions have <b>poor acoustics</b>.</li>
+<li><b>Aluminum panel advantages:</b>
+  <ul>
+  <li>Light (1–2 lb/ft²).</li>
+  <li>Can be custom shaped.</li>
+  <li>Recyclable.</li>
+  <li><b>Class A</b>.</li>
+  <li>Unaffected by moisture.</li>
+  <li><b>No VOCs</b>.</li>
+  <li>Good acoustics when perforated and backed with batts.</li>
+  </ul>
+  Their drawback is a higher first cost.</li>
+</ul>
+</div>
+</div>
+
+<h3>Key Table — Seismic Requirements (Table 2.2)</h3>
+<table>
+<tr><th>Item</th><th>Category C</th><th>Categories D / E / F</th></tr>
+<tr><td>Hanger wire</td><td colspan="2">12 ga at 48 in o.c. (both)</td></tr>
+<tr><td>Main tee</td><td>Intermediate or heavy-duty</td><td>Heavy-duty</td></tr>
+<tr><td>Grid-to-wall clearance</td><td>≥ ⅜ in</td><td>≥ ¾ in</td></tr>
+<tr><td>Perimeter ceiling angle width</td><td>≥ ⅞ in</td><td>≥ 2 in</td></tr>
+<tr><td>Grid attached on two adjacent walls</td><td>Not permitted</td><td>Required</td></tr>
+<tr><td>Splay wires (4 at 90°, 45° slope) + compression struts at 12 ft o.c.</td><td>Not required</td><td>Required</td></tr>
+<tr><td>Seismic separation joint</td><td>Not required</td><td>Areas &gt; 2500 ft²</td></tr>
+<tr><td>Sprinkler head clearance</td><td>⅜ in all around</td><td>2 in opening or swing joint</td></tr>
+<tr><td>Light fixtures mechanically attached</td><td colspan="2">Required (both)</td></tr>
+<tr><td>Cable trays and conduit braced independently</td><td>Not required</td><td>Required</td></tr>
+</table>
+</section>
+
+<!-- ============ CHAPTER 5 ============ -->
+<section class="chapter ch5">
+<h2>Chapter 5 — Glazing</h2>
+<p class="sub">Common glass types · Decorative glass · Special &amp; fire-rated glazing · Framed · Frameless · Safety glazing · Coordination</p>
+
+<h3>Key Terms</h3>
+<dl class="terms">
+<div><dt>Glazing</dt><dd>Installing glass in framing. The word also means the glass itself.</dd></div>
+<div><dt>Float glass</dt><dd>The most common glass, made by floating molten glass on molten tin and then annealing it. It replaced plate glass in the 1960s.</dd></div>
+<div><dt>Annealed</dt><dd>Slowly cooled. Annealed float glass is the baseline strength.</dd></div>
+<div><dt>Heat-strengthened glass</dt><dd>About 2× as strong as annealed. Mostly used for exterior windows. <i>Not</i> safety glass.</dd></div>
+<div><dt>Tempered glass</dt><dd>Glass heated to about 1200°F and quenched. It is about <b>4× stronger</b>, breaks into small cubes, and counts as <b>safety glass</b>. It can't be cut after tempering.</dd></div>
+<div><dt>Tong marks</dt><dd>Small marks near an edge from tongs used during vertical tempering. Hide them in the frame, or specify horizontal tempering.</dd></div>
+<div><dt>Bow</dt><dd>Warping from heat treatment. It is the most noticeable distortion in tempered glass.</dd></div>
+<div><dt>Laminated glass</dt><dd>Glass layers bonded with a <b>PVB (polyvinyl butyral)</b> interlayer that holds pieces together when broken. It is safety glass, can be cut, and suits acoustic and security uses.</dd></div>
+<div><dt>Polycarbonate</dt><dd>A tough thermoplastic laminated in for ballistic or impact resistance.</dd></div>
+<div><dt>Wired glass</dt><dd>Glass with embedded wire mesh. It is fire-rated, but <b>not safety glass</b> because it can't be tempered.</dd></div>
+<div><dt>Figured / patterned glass</dt><dd>Glass rolled with a pattern that obscures vision without fully blocking it.</dd></div>
+<div><dt>Mirrored glass</dt><dd>Glass with a metallic film and a protective backing. Mount it mechanically, not with mastic alone.</dd></div>
+<div><dt>Two-way (transparent) mirror</dt><dd>A mirror on one side and a window from the other. The observed room needs at least <b>5×</b> more light (10× is better), and the coating faces the brighter room.</dd></div>
+<div><dt>Beveled glass</dt><dd>Glass with a sloped, polished decorative edge.</dd></div>
+<div><dt>Etched glass</dt><dd>Glass with part of the surface removed by acid or sandblasting. Uniform etching is <b>frosted</b>, and deep etching is <b>carved</b>.</dd></div>
+<div><dt>Stained glass</dt><dd>Glass colored with metal oxides and set in lead or zinc <b>cames</b> (H-shaped strips).</dd></div>
+<div><dt>Hand-blown glass</dt><dd>Glass blown as a cylinder, then cut and flattened. It has unique irregularities.</dd></div>
+<div><dt>Flashed / crackle / seedy</dt><dd>Hand-blown variations: flashed has a thin colored layer, crackle has a webbed pattern from dipping in water, and seedy has small bubbles.</dd></div>
+<div><dt>Cathedral glass</dt><dd>Machine-rolled glass, textured on one side and transparent.</dd></div>
+<div><dt>Opalescent glass</dt><dd>Translucent, marbleized glass with multiple colors mixed in.</dd></div>
+<div><dt>Painted glass</dt><dd>Vitreous paint fired onto glass. It allows finer detail than stained glass.</dd></div>
+<div><dt>Dichroic glass</dt><dd>Glass with thin metal-oxide film layers. It reflects one color and transmits another, shifting with viewing angle.</dd></div>
+<div><dt>Cast glass</dt><dd>Molten glass poured into a sand mold. It is thick and usually comes in small pieces.</dd></div>
+<div><dt>Kiln-formed glass</dt><dd>Glass heated until it sags over a mold, giving relief on one side and a smooth other side.</dd></div>
+<div><dt>Clear ceramic</dt><dd>A fire-rated clear ceramic, not actually glass. It is more impact-resistant than wired glass.</dd></div>
+<div><dt>Gel-filled glass</dt><dd>Tempered layers with a gel between them that turns opaque and insulates in a fire. It is rated up to 2 hr and is expensive.</dd></div>
+<div><dt>Fire-protective (tempered) glass</dt><dd>Rated for <b>30 min</b> max, because it fails the hose stream test. It is ¼ in thick and still meets the 16 CFR 1201 impact standard.</dd></div>
+<div><dt>W / OH / D</dt><dd>IBC labels for where fire-rated glazing may go: <b>W</b>all, <b>O</b>pening (windows, sidelights), and <b>D</b>oor. The rating in minutes follows.</dd></div>
+<div><dt>H / NH, T / NT</dt><dd>H or NH means the glazing meets or fails the <b>H</b>ose stream test. T or NT means it meets or fails the <b>T</b>emperature-rise test. Example: "D-H-NT-45."</dd></div>
+<div><dt>Bent glass</dt><dd>Flat glass heated and shaped into curves. Maximum size is about 4×8 ft.</dd></div>
+<div><dt>Decorative laminated glass</dt><dd>Laminated glass with a colored film, fabric, rice paper, or mesh interlayer.</dd></div>
+<div><dt>Electrochromic glazing</dt><dd>Glass that tints clear to dark when current is applied. It never becomes fully opaque, so it can't provide privacy, but it saves energy.</dd></div>
+<div><dt>SPD (suspended-particle device)</dt><dd>Glass that varies continuously from clear to fully opaque.</dd></div>
+<div><dt>PDLC (polymer-dispersed liquid crystal)</dt><dd>Glass that switches from clear to cloudy white. It gives <b>privacy</b> but doesn't control daylight.</dd></div>
+<div><dt>Photochromic / thermochromic</dt><dd>Glass that tints in response to light or to temperature.</dd></div>
+<div><dt>Low-iron glass</dt><dd>Glass with no green tint, for ultra-clear uses and visible edges.</dd></div>
+<div><dt>Antireflective glass</dt><dd>Glass that cuts reflection from about 8% to under 1%. Used for display cases and storefronts.</dd></div>
+<div><dt>LED-embedded glazing</dt><dd>Laminated glass with LEDs inside, powered through a clear conductive coating.</dd></div>
+<div><dt>Framed glazing</dt><dd>Glass in wood, steel, or aluminum frames. The most common interior type.</dd></div>
+<div><dt>Setting blocks</dt><dd>Small blocks the glass sits on, placed at the quarter points of the sill.</dd></div>
+<div><dt>Removable stop</dt><dd>The frame piece that holds the glass in. Put it on the less important side of the wall.</dd></div>
+<div><dt>Hollow-metal (steel) frame</dt><dd>A 16–18 ga bent steel frame, needed for fire-rated openings. Its stops show screws.</dd></div>
+<div><dt>Aluminum frame</dt><dd>An extruded frame with sharp corners and snap-in stops (no exposed fasteners). It has no fire rating.</dd></div>
+<div><dt>Face clearance / edge clearance / bite</dt><dd>The gap between the glass face and the stop, the gap at the glass edge, and how far the glass sits inside the frame.</dd></div>
+<div><dt>Frameless glazing</dt><dd>Glazing with head and sill frames recessed and jambs hidden or eliminated, so the glass appears to float.</dd></div>
+<div><dt>Butt joint / T-joint</dt><dd>A butt joint is two glass edges sealed with silicone. A T-joint is used where three pieces meet; one piece extends past the others.</dd></div>
+<div><dt>All-glass system</dt><dd>Glass walls supported only at the top and bottom, braced by <b>glass fins (mullions)</b>.</dd></div>
+<div><dt>Patch fittings</dt><dd>Metal fittings that join glass pieces or doors without framing.</dd></div>
+<div><dt>Shake</dt><dd>How much a glass panel flexes or vibrates. It affects the thickness choice.</dd></div>
+<div><dt>Safety glazing</dt><dd>Tempered or laminated glass required in <b>hazardous locations</b>.</dd></div>
+<div><dt>16 CFR 1201</dt><dd>The federal safety glazing standard. Category I is tested at 150 ft-lbf and Category II at 400 ft-lbf.</dd></div>
+<div><dt>ANSI Z97.1</dt><dd>An alternate safety test (Classes A and B), <b>not allowed</b> for doors or tub, shower, or sauna enclosures.</dd></div>
+</dl>
+
+<h3>Main Points</h3>
+<div class="two">
+<div>
+<h4>Common glass (p 5-1 to 5-3)</h4>
+<ul>
+<li>Float glass comes clear or tinted (bronze, gray, green). Thicknesses run ⅛ to ¾ in. Indoors it is used only where safety glass isn't required.</li>
+<li>Tempered glass comes ⅛ to ⅞ in thick, and <b>¼ in is common indoors</b>.</li>
+<li>Tempered glass <b>can't be cut, drilled, or deeply etched afterward</b>, so order it to exact size.</li>
+<li>When butting large frameless tempered panes, orient the bows the same way.</li>
+<li>Tong marks sit within ½ in of the edge for glass up to ⅜ in thick, and within ¾ in for thicker glass.</li>
+<li><b>Laminated glass:</b>
+  <ul>
+  <li>Can be float, tempered, or heat-strengthened glass.</li>
+  <li>Can be cut in the field.</li>
+  <li>Good for acoustics and security (bullet-resistant with polycarbonate).</li>
+  <li>Low impact resistance unless tempered glass is used.</li>
+  <li>Interior sizes run 9/32 to ¾ in. Maximum sheet is 84×160 in.</li>
+  </ul></li>
+<li>Standards:
+  <ul>
+  <li><b>ANSI Z97.1</b> and <b>16 CFR 1201:</b> safety glazing.</li>
+  <li><b>ASTM C1036:</b> flat glass.</li>
+  <li><b>ASTM C1048:</b> tempered and heat-strengthened glass.</li>
+  <li><b>NFPA 80:</b> fire doors and windows.</li>
+  </ul></li>
+</ul>
+<h4>Decorative glass (p 5-4 to 5-7)</h4>
+<ul>
+<li><b>Wired glass</b> meets NFPA 80 and is UL-labeled. Openings are limited to <b>1296 in² (9 ft²)</b> with a <b>54 in</b> maximum dimension. It is not safety glazing.</li>
+<li>Mount mirrors mechanically (J-moldings, clips, rosettes) with rubber sleeves so metal never touches the glass.</li>
+<li>Minimum glass thickness for etching:
+  <ul>
+  <li>Light etching: ⅛ in.</li>
+  <li>Deeper etching: ¼ in.</li>
+  <li>Medium carving: ⅜ in.</li>
+  <li>Heavy carving: ½ in or more.</li>
+  </ul>
+  <b>Deep etching must be done before tempering.</b></li>
+<li><b>Lighting etched glass:</b> light the frosted part itself, from above or at the edge. Edge lighting fails beyond about <b>18 in</b>.</li>
+<li>Stained glass in ceilings or damage-prone spots should be protected with tempered or laminated glass.</li>
+<li>Kiln-formed glass is ¼–½ in thick, up to 4×8 ft, and can be tempered.</li>
+<li>Dichroic glass: a single film stack gives no red or green, and two stacks give all colors.</li>
+</ul>
+<h4>Fire-rated glazing (p 5-6 to 5-9)</h4>
+<ul>
+<li><b>Five types:</b>
+  <ul>
+  <li>Wired glass.</li>
+  <li>Clear ceramic.</li>
+  <li>Gel-filled glass.</li>
+  <li>Tempered glass.</li>
+  <li>Some glass block.</li>
+  </ul></li>
+<li>Ratings by type:
+  <ul>
+  <li><b>Wired glass</b> (¼ in, steel frame): <b>45 min</b>.</li>
+  <li><b>Clear ceramic</b> (only 3/16 in thick): 1 hr up to 1296 in², and 3 hr up to 100 in².</li>
+  <li><b>Gel-filled</b> (tested to ASTM E119): up to <b>2 hr</b>, and it blocks heat.</li>
+  </ul></li>
+<li>A fire barrier must stop <b>flame</b>, stop <b>smoke</b>, and limit <b>heat transfer</b>. Most glass does only the first two, and radiant heat can still ignite things nearby.</li>
+<li><b>1-hr corridor walls</b> need <b>45-min</b> glazing, and their doors may be <b>20-min</b>. Other 1-hr walls need <b>60-min</b> glazing.</li>
+<li>Test standards: W uses ASTM E119, OH uses NFPA 257, and D uses NFPA 252.</li>
+<li>Rated glazing needs rated framing tested with the glass, which is bulkier than standard framing.</li>
+</ul>
+</div>
+<div>
+<h4>Special glazing (p 5-9 to 5-11)</h4>
+<ul>
+<li>Three switchable types:
+  <ul>
+  <li><b>Electrochromic:</b> tints but no privacy.</li>
+  <li><b>SPD:</b> clear to fully opaque.</li>
+  <li><b>PDLC:</b> privacy, but no light control.</li>
+  </ul>
+  All are very expensive. Electrochromic and SPD save 20–30% of energy.</li>
+<li>Low-iron glass is for absolute clarity. Antireflective glass is for displays.</li>
+<li>Exterior glass type affects <b>UV fading</b> of interior finishes, so specify fade-resistant materials.</li>
+</ul>
+<h4>Framed glazing (p 5-10 to 5-15)</h4>
+<ul>
+<li>Interior glass has no wind load or weather sealing, so framing sizes are less critical.</li>
+<li><b>Wood frames:</b>
+  <ul>
+  <li>At least ¼ in of shim space.</li>
+  <li>One stop removable.</li>
+  <li>Two setting blocks at the sill quarter points.</li>
+  <li>Silicone or neoprene glazing tape.</li>
+  </ul></li>
+<li>Glass thickness:
+  <ul>
+  <li><b>¼ in:</b> the standard.</li>
+  <li><b>⅛–3/16 in:</b> small pass-throughs.</li>
+  <li><b>Thicker:</b> large openings.</li>
+  <li><b>Tempered or laminated:</b> hazardous locations.</li>
+  </ul></li>
+<li><b>Steel</b> frames are for fire ratings and matching hollow-metal doors. They have rounded corners.</li>
+<li><b>Aluminum</b> frames have sharp corners, snap-in stops, and anodized finishes.</li>
+</ul>
+<h4>Frameless &amp; all-glass (p 5-13 to 5-21)</h4>
+<ul>
+<li>Full-height glazing 8–10 ft tall needs at least <b>¼ in tempered</b>, and <b>⅜ in is preferred</b>. Use laminated glass for sound control.</li>
+<li>Leave extra space at the head so the glass can be lifted in and swung upright.</li>
+<li>Silicone sealant comes clear or black. Clear can show bubbles, so black often looks better.</li>
+<li>Use a <b>T-joint</b> where three pieces meet, because sealant can't be installed well at a single point.</li>
+<li>All-glass systems reach <b>30 ft</b> when the weight rests on the base, or <b>75 ft</b> when hung from clamps.</li>
+<li>Blinds in a <b>recessed blind pocket</b> give conference rooms privacy.</li>
+<li>A partial-height wall doesn't need safety glass if the sill is ≥ <b>18 in</b> above the floor.</li>
+</ul>
+<h4>Safety glazing — hazardous locations (IBC 2406)</h4>
+<ul>
+<li>Hazardous locations:
+  <ul>
+  <li>Swinging, sliding, and bifold doors.</li>
+  <li>Unframed doors.</li>
+  <li><b>Tubs, showers, spas, saunas, steam rooms, and pools</b>, where the glass is &lt; 60 in above the standing surface and within 60 in of the water.</li>
+  <li><b>Guards and railings</b>, always.</li>
+  <li>Panels near walking surfaces (the 18/36 in rules).</li>
+  <li>Glass within <b>24 in of a door</b>.</li>
+  </ul></li>
+<li>Which category applies:
+  <ul>
+  <li>Panels <b>over 9 ft²</b> need Category II.</li>
+  <li>Panels under 9 ft² need Category I, <b>except</b> doors, pool and sauna enclosures, and sliding patio doors, which need Category II.</li>
+  <li><b>Every glass door must be tempered.</b></li>
+  </ul></li>
+<li>Canada requires tempered or laminated glass in doors, showers, and sidelights wider than 500 mm.</li>
+</ul>
+<h4>Coordination (p 5-21 to 5-22)</h4>
+<ul>
+<li>Make sure large sheets fit through the building to reach the space.</li>
+<li>Specify horizontal tempering to avoid tong marks.</li>
+<li>Note which way patterned or etched glass faces.</li>
+<li>Match frameless glass thickness to adjacent glass doors.</li>
+<li>Add <b>markings</b> on full-height glass so people don't walk into it. Furniture or planters can also act as barriers.</li>
+<li>Put stops on the side of the wall where appearance matters least.</li>
+<li>Leave at least <b>1½ in</b> between exterior glass and blinds, with top and bottom gaps, so trapped heat can't crack the glass. Put HVAC outlets on the room side of the blinds.</li>
+</ul>
+</div>
+</div>
+
+<h3>Key Tables — Ch 5</h3>
+<div class="grid2">
+<table><tr><th colspan="4">Table 5.2 · Max fire-resistance-rated glazing</th></tr>
+<tr><th>Rating</th><th>Max area</th><th>Max size</th><th>Thick</th></tr>
+<tr><td>45 min</td><td>4500 in²</td><td>95×95 in</td><td>¾ in</td></tr>
+<tr><td>60 min</td><td>5605 in²</td><td>95×95 in</td><td>15/16 in</td></tr>
+<tr><td>90 min</td><td>3724 in²</td><td>90×90 in</td><td>1-7/16 in</td></tr>
+<tr><td>120 min</td><td>3724 in²</td><td>111×111 in</td><td>2⅛ in</td></tr></table>
+<table><tr><th colspan="4">Table 5.3 · Interior glass clearances (in)</th></tr>
+<tr><th>Glass</th><th>Face</th><th>Edge</th><th>Bite</th></tr>
+<tr><td>⅛–¼</td><td>⅛</td><td>¼</td><td>⅜</td></tr>
+<tr><td>5/16–⅜</td><td>3/16</td><td>5/16</td><td>7/16</td></tr>
+<tr><td>½</td><td>¼</td><td>⅜</td><td>7/16</td></tr>
+<tr><td>¾</td><td>¼</td><td>½</td><td>⅝</td></tr></table>
+</div>
+<table><tr><th colspan="6">Table 5.4 · Butt-joint widths for frameless glass (min / max)</th></tr>
+<tr><td>⅜ in glass: ⅜ / 7/16</td><td>½ in: ⅜ / 7/16</td><td>⅝ in: ⅜ / ½</td><td>¾ in: ½ / ⅝</td><td>⅞ in: ½ / ⅝</td></tr></table>
+</section>
+
+<!-- ============ CHAPTER 16 ============ -->
+<section class="chapter ch16">
+<h2>Chapter 16 — Lighting (16-11 to 16-19) + Plumbing Start (16-20)</h2>
+<p class="sub">Mechanical &amp; Electrical Systems Coordination · Conduit &amp; communications (16-10) · Light sources · Lighting systems · Controls · Daylighting · Plumbing</p>
+
+<h3>Key Terms</h3>
+<dl class="terms">
+<div><dt>EMT</dt><dd>Electrical metallic tubing, the most common steel conduit. It is light and bends easily.</dd></div>
+<div><dt>IMC / RMC</dt><dd>Intermediate and rigid metal conduit, the heavier steel types.</dd></div>
+<div><dt>NEC</dt><dd>National Electrical Code, which governs conduit sizing and bending.</dd></div>
+<div><dt>Plenum-rated cable</dt><dd>Cable allowed without conduit in plenums. It costs more.</dd></div>
+<div><dt>Incandescent lamp</dt><dd>A tungsten filament in a gas-filled bulb.</dd></div>
+<div><dt>Tungsten-halogen (quartz)</dt><dd>An incandescent lamp with halogen gas. The halogen cycle redeposits tungsten on the filament, giving longer life, whiter light, and steady color.</dd></div>
+<div><dt>Low-voltage lamp</dt><dd>A lamp that usually runs at 12 V and needs a <b>transformer</b>. It is compact and gives tight beam control.</dd></div>
+<div><dt>MR lamp</dt><dd>A miniature reflector lamp (low-voltage) that allows small fixtures.</dd></div>
+<div><dt>R / ER / PAR lamps</dt><dd>Reflector lamps. They need large clearances from combustibles.</dd></div>
+<div><dt>Fluorescent lamp</dt><dd>An efficient linear source that needs a <b>ballast</b>.</dd></div>
+<div><dt>T8 / T5</dt><dd>Fluorescent tubes 1 in (T8) and ⅝ in (T5) in diameter. They replaced the T12. The number is the diameter in eighths of an inch.</dd></div>
+<div><dt>EPAct 1992</dt><dd>The Energy Policy Act, which ended production of many T12 lamps.</dd></div>
+<div><dt>Compact fluorescent (CFL)</dt><dd>A bent T4 or T5 tube lasting about 10,000 hr. Some have a screw base to fit older fixtures.</dd></div>
+<div><dt>GU24</dt><dd>A two-pin base that can't accept incandescent lamps. Its lamps have CRI ≥ 80, give 40–70 lm/W, and last 10–30k hr.</dd></div>
+<div><dt>Ballast</dt><dd>A device that supplies starting and operating voltage to fluorescent and HID lamps. Leave room for it in details.</dd></div>
+<div><dt>HID</dt><dd>High-intensity discharge lamps, which pass an arc through high-pressure gas: <b>mercury vapor, metal halide, HPS</b>.</dd></div>
+<div><dt>Mercury vapor</dt><dd>An HID lamp with blue-green light, long life, and <b>poor color</b>.</dd></div>
+<div><dt>Metal halide</dt><dd>An HID lamp with better color and efficacy but shorter life. It has the best mix of HID features, but its color shifts over its life.</dd></div>
+<div><dt>Ceramic metal halide (CMH)</dt><dd>Metal halide with a ceramic arc tube, giving better color and consistency. Used in retail and high ceilings. It costs more and is hard to dim.</dd></div>
+<div><dt>HPS</dt><dd>High-pressure sodium, with a <b>yellow</b> light. Very efficient (80–140 lm/W), lasting 10–24k hr.</dd></div>
+<div><dt>LED</dt><dd>A light-emitting diode (solid-state). It lasts over 50,000 hr, uses little power, produces no heat in the beam, and can be digitally controlled.</dd></div>
+<div><dt>OLED</dt><dd>An organic LED, part of the same solid-state family.</dd></div>
+<div><dt>Neon</dt><dd>Gas-filled tubing bent into shapes. The gas sets the color, and it needs a transformer.</dd></div>
+<div><dt>Cold-cathode</dt><dd>Like neon but larger (about 1 in diameter), more efficient, and available in whites.</dd></div>
+<div><dt>Emergency lighting</dt><dd>Code-required lighting for evacuation during a power failure.</dd></div>
+<div><dt>Troffer</dt><dd>A recessed fluorescent fixture in a ceiling grid.</dd></div>
+<div><dt>Cove lighting</dt><dd>Hidden lamps in a cove that wash a ceiling or wall with light.</dd></div>
+<div><dt>Three-way / four-way switch</dt><dd>Switches that control the same lights from two or three locations.</dd></div>
+<div><dt>Multilevel (two-level) switching</dt><dd>Controls that reduce light in steps, for example half the lamps of a fixture on each switch.</dd></div>
+<div><dt>Time-of-day controller</dt><dd>A control that turns lights off on a schedule, with an override.</dd></div>
+<div><dt>Occupant sensor</dt><dd>A passive infrared or ultrasonic sensor that turns lights on and off based on occupancy.</dd></div>
+<div><dt>Daylight compensation</dt><dd>Photocells that dim or switch lights as daylight changes.</dd></div>
+<div><dt>ASHRAE/IES 90.1</dt><dd>The energy standard for buildings except low-rise residential. It sets lighting control rules.</dd></div>
+<div><dt>UL</dt><dd>Underwriters Laboratories. Custom fixtures built with UL-listed parts avoid extra approval.</dd></div>
+<div><dt>Daylighting</dt><dd>Using natural light to supplement or replace electric light.</dd></div>
+<div><dt>Clerestory</dt><dd>A high band of windows between two roof levels.</dd></div>
+<div><dt>Effective daylight depth</dt><dd>About <b>2.5 × h</b>, where h is the height from the floor to the window head.</dd></div>
+<div><dt>Light shelf</dt><dd>A horizontal shelf above eye level that bounces daylight onto the ceiling and deeper into the room while shading the lower glass.</dd></div>
+<div><dt>Trap</dt><dd>A water-filled fitting that keeps <b>sewer gas</b> out.</dd></div>
+<div><dt>Vent</dt><dd>A pipe open to the outside that releases gas and equalizes pressure so traps aren't siphoned dry.</dd></div>
+<div><dt>Soil stack / waste stack</dt><dd>Vertical drains. A soil stack carries toilet (human) waste, and a waste stack carries only other waste.</dd></div>
+<div><dt>Stack vent / vent stack</dt><dd>A stack vent is the part of a stack above the highest fixture. A vent stack is a separate vent pipe in multistory buildings.</dd></div>
+<div><dt>Fixture branch</dt><dd>A pipe from a trap to a stack.</dd></div>
+<div><dt>Cleanout</dt><dd>An access fitting for clearing a drain.</dd></div>
+</dl>
+
+<h3>Main Points</h3>
+<div class="two">
+<div>
+<h4>Power &amp; communications (p 16-10 to 16-11)</h4>
+<ul>
+<li>EMT is the most common conduit. The NEC sets conduit size by the number of wires, and a larger conduit needs a larger bend radius.</li>
+<li>Telephone and data outlets go on the same plan as power. The designer locates them, and the engineer or contractor circuits them.</li>
+<li>Communication wiring is low voltage, so it has fewer restrictions and may run without conduit.</li>
+</ul>
+<h4>Light sources — what to detail for (p 16-11 to 16-15)</h4>
+<ul>
+<li>Detailing considerations: <b>size, weight, location, mounting method, and heat output</b>.</li>
+<li>Cove lights need continuous support. Recessed downlights need clearance above the ceiling.</li>
+<li><b>Incandescent:</b>
+  <ul>
+  <li><b>Pros:</b> cheap, compact, easy to dim, frequent switching doesn't shorten life, warm color, easy to control with reflectors and lenses.</li>
+  <li><b>Cons:</b> low efficacy, short life, high heat.</li>
+  </ul></li>
+<li><b>Halogen:</b>
+  <ul>
+  <li>Whiter, more efficient light with steady color.</li>
+  <li>Runs hot and can <b>shatter</b>, so it must be enclosed by glass or a screen.</li>
+  <li>Available at 120 V or low voltage.</li>
+  </ul></li>
+<li><b>Low-voltage:</b> small, with precise beams, good for lighting objects from far away. The transformer adds bulk and cost.</li>
+<li><b>Fluorescent:</b>
+  <ul>
+  <li>Efficient and linear.</li>
+  <li>Needs a ballast (leave room for it).</li>
+  <li>T8 and T5 replaced T12.</li>
+  <li>CFLs and GU24 lamps replace incandescent lamps.</li>
+  </ul></li>
+<li>Energy Star residential fixtures can't use the Edison screw base.</li>
+<li><b>HID</b> lamps light big spaces such as gyms, garages, and industrial areas. Metal halide is the best all-around HID, CMH gives the best color, and HPS is the most efficient but yellow.</li>
+<li>Metal halide bulbs come clear (for optical control) or coated/diffuse (for better color).</li>
+<li><b>LED:</b> bright, long life, low energy, colors, and digital control, but higher cost. LED replacements exist for A, R, PAR, and MR lamps and for fluorescent tubes.</li>
+<li><b>Neon and cold-cathode</b> both need transformers and small mounting brackets.</li>
+</ul>
+<h4>Emergency lighting (p 16-12 to 16-13)</h4>
+<ul>
+<li>Governed by the IBC, NEC, <i>Life Safety Code</i>, and Canadian codes.</li>
+<li>Required in:
+  <ul>
+  <li>Exit stairs and corridors.</li>
+  <li>Assembly spaces.</li>
+  <li>Educational and hazardous occupancies.</li>
+  <li>Large occupant loads.</li>
+  </ul></li>
+<li>Lighting and sign requirements:
+  <ul>
+  <li><b>At least 1 fc (10.8 lux) at the floor.</b></li>
+  <li><b>Exit signs</b> at every exit door, with directional signs at turns.</li>
+  <li>Luminous egress path markings in some high-rises.</li>
+  </ul></li>
+<li>Remodels must reconnect or relocate emergency circuits and exit signs.</li>
+</ul>
+</div>
+<div>
+<h4>Lighting systems (p 16-15)</h4>
+<ul>
+<li>Recessed fixtures need plenum clearance. Troffers are usually fine, but large downlights may clash with ducts.</li>
+<li>Choose low-clearance fixtures, and check both the drawings and the actual ceiling space.</li>
+<li><b>Cove lighting:</b>
+  <ul>
+  <li>Use fixtures made for coves.</li>
+  <li>Keep lamps <b>out of sight lines</b> from across the room.</li>
+  <li>Set lamps far enough from the surface to avoid hot spots.</li>
+  <li>Leave room for relamping.</li>
+  </ul></li>
+</ul>
+<h4>Control devices (p 16-16 to 16-17)</h4>
+<ul>
+<li>Switching depends on:
+  <ul>
+  <li>The space's function.</li>
+  <li>How much individual control is needed.</li>
+  <li>Switch location (usually at the entry door).</li>
+  <li>Energy conservation.</li>
+  <li>The load per circuit.</li>
+  </ul></li>
+<li>Dimmed lights need their own circuit. Fluorescent dimming costs more.</li>
+<li>Commercial voltages: <b>incandescent runs on 120 V</b> and <b>fluorescent on 277 V</b>, which is more efficient.</li>
+<li>Dimmers alone don't save much energy, so <b>automatic controls are required</b>.</li>
+<li>Daylight compensation needs the perimeter zone to get at least half its light from daylight for several hours a day. It can save up to 60%.</li>
+<li><b>90.1 automatic shutoff</b> applies to buildings <b>over 5000 ft²</b>, using one of:
+  <ul>
+  <li>Time-of-day controls (≤ 25,000 ft² and one floor per control).</li>
+  <li>Occupant sensors that turn lights off within <b>30 min</b>.</li>
+  <li>A signal from another system.</li>
+  </ul></li>
+<li>Exceptions: 24-hour operations, patient care, and places where shutoff would endanger safety or security.</li>
+<li>Per-space controls under 90.1:
+  <ul>
+  <li>Every enclosed space needs at least one control.</li>
+  <li><b>Classrooms, conference rooms, and break rooms need occupant sensors.</b></li>
+  <li>Each control covers at most 2500 ft² (spaces ≤ 10,000 ft²) or 10,000 ft² (larger spaces).</li>
+  <li>The override lasts up to <b>4 hr</b>.</li>
+  </ul></li>
+<li>Separate controls are required for:
+  <ul>
+  <li>Display and accent lighting.</li>
+  <li>Hotel rooms (a master switch at the entry).</li>
+  <li>Task and under-cabinet lighting.</li>
+  <li>Nonvisual lighting (food warming).</li>
+  <li>Lighting for sale or demonstration.</li>
+  </ul></li>
+<li>Exterior lighting needs a photosensor or astronomical time switch.</li>
+<li>Codes limit the watts per circuit, so large, bright spaces need several circuits.</li>
+</ul>
+<h4>Custom lighting &amp; daylighting (p 16-18 to 16-19)</h4>
+<ul>
+<li>For custom fixtures, the designer sets the intent and a lighting designer details it. Use <b>UL-listed parts</b>, because fully custom fixtures need costly testing.</li>
+<li>Lighting plus the cooling it requires uses <b>30–40%</b> (up to 50%) of a commercial building's energy.</li>
+<li>Daylighting saves energy and benefits occupants. Photocells cut perimeter lighting energy by 50–60%.</li>
+<li><b>Designer strategies:</b>
+  <ul>
+  <li>Open plans with window areas kept open.</li>
+  <li>Low partitions and interior glass.</li>
+  <li>Window coverings that let daylight in.</li>
+  <li>Reflective surfaces.</li>
+  <li>Electric lighting coordinated with daylight.</li>
+  </ul></li>
+<li><b>Variables:</b>
+  <ul>
+  <li>Facade orientation.</li>
+  <li>Sky conditions (sun angle, clouds, time of day).</li>
+  <li>Glass area, head height, and transmittance.</li>
+  <li>Room and ground reflectance.</li>
+  <li>Obstructions such as overhangs and trees.</li>
+  </ul></li>
+<li><b>Problems:</b>
+  <ul>
+  <li>Heat gain or loss.</li>
+  <li><b>Glare</b>, which is worst on south sides.</li>
+  <li>Unbalanced light.</li>
+  <li>No energy saved unless the electric lights actually turn off.</li>
+  </ul></li>
+<li>Daylight drops off beyond <b>2.5h</b>, so put enclosed rooms deeper in the floor plate.</li>
+<li><b>Light shelves</b> work best when they sit partly inside and partly outside the glass. The designer can add interior shelves in older buildings with tall windows.</li>
+</ul>
+<h4>Plumbing (p 16-20 to 16-21)</h4>
+<ul>
+<li>Plumbing has two parts: <b>supply</b> (pressurized, small pipes, easy to route) and <b>drainage</b> (gravity-driven, needs slope and vents, harder to route).</li>
+<li>Traps are omitted only when a fixture has a built-in trap (toilets) or adjacent fixtures share one (a double sink).</li>
+<li>Place fixtures <b>as close as possible to existing stacks</b>.</li>
+<li>Drain slope is at least <b>¼ in/ft</b>, or ⅛ in/ft for pipes over 3 in. The ceiling depth therefore limits how far a fixture can be from the stack.</li>
+<li>Codes limit the trap-to-vent distance (IPC Table 16.2). Island sinks need special venting.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- ============ NUMBERS CHEAT SHEET ============ -->
+<section class="chapter top">
+<h2>Numbers to Memorize — Quick Cheat Sheet</h2>
+<div class="grid2">
+<table>
+<tr><th colspan="2">Partitions</th></tr>
+<tr><td>Common commercial board</td><td>⅝ in on studs at 24 in o.c.</td></tr>
+<tr><td>Residential board</td><td>½ in on studs at 16 in o.c.</td></tr>
+<tr><td>Single-layer 2-hr board</td><td>¾ in</td></tr>
+<tr><td>Board widths</td><td>4 ft, 4½ ft</td></tr>
+<tr><td>Common stud gage</td><td>25 ga (higher number = thinner)</td></tr>
+<tr><td>Common stud depths</td><td>2½ in, then 3⅝ in</td></tr>
+<tr><td>Wood stud actual size</td><td>1½ × 3½ in</td></tr>
+<tr><td>Deflection limits</td><td>L/120 code max; L/240 for brittle finishes</td></tr>
+<tr><td>Electrical box in rated wall</td><td>≤ 16 in², one side per stud space</td></tr>
+<tr><td>Relief joint gap</td><td>½ in</td></tr>
+<tr><td>Slip joint</td><td>≤ ½ in gap; deflection track allows up to 1 in</td></tr>
+<tr><td>Acoustic batt beyond partition</td><td>4 ft each side</td></tr>
+<tr><td>Plaster coats</td><td>Scratch ½ in, brown ¼ in, finish ⅛ in</td></tr>
+<tr><td>Veneer plaster</td><td>1/16–⅛ in</td></tr>
+<tr><td>Plaster control joints</td><td>Runs over 30 ft</td></tr>
+<tr><td>CMU actual size</td><td>7⅝ × 7⅝ × 15⅝ in</td></tr>
+<tr><td>Masonry module</td><td>4 in</td></tr>
+<tr><td>Glass block min thickness / joints</td><td>3 in / ¼–⅜ in</td></tr>
+<tr><td>Glass block support deflection</td><td>L/600</td></tr>
+<tr><td>Glass block max panel</td><td>250 ft² (thin: 150 ft²)</td></tr>
+<tr><td>Demountable panel widths</td><td>24 or 30 in (4 or 5 ft modules)</td></tr>
+<tr><td>Synthetic gypsum share</td><td>~28%</td></tr>
+</table>
+<table>
+<tr><th colspan="2">Ceilings</th></tr>
+<tr><td>Main runners / hanger wires</td><td>4 ft o.c.</td></tr>
+<tr><td>Cross tees</td><td>Every 2 ft</td></tr>
+<tr><td>Lay-in tiles</td><td>24×24, 24×48; 20×60 for 5 ft module</td></tr>
+<tr><td>Concealed-grid tiles</td><td>12×12 in</td></tr>
+<tr><td>Level tolerance</td><td>⅛ in in 12 ft</td></tr>
+<tr><td>Seismic categories</td><td>A–F; A and B need nothing special</td></tr>
+<tr><td>Unknown soil</td><td>Assume Class D</td></tr>
+<tr><td>Importance factor, Cat IV</td><td>1.5</td></tr>
+<tr><td>Seismic exemption</td><td>Ceilings under 144 ft²</td></tr>
+<tr><td>Seismic hanger wire</td><td>12 ga at 48 in o.c.</td></tr>
+<tr><td>D/E/F wall clearance / angle</td><td>¾ in / 2 in</td></tr>
+<tr><td>C wall clearance / angle</td><td>⅜ in / ⅞ in</td></tr>
+<tr><td>D/E/F struts</td><td>12 ft o.c., starting 6 ft from walls</td></tr>
+<tr><td>First hanger from wall</td><td>≤ 8 in</td></tr>
+<tr><td>D/E/F separation joint</td><td>Areas over 2500 ft²</td></tr>
+<tr><td>Plaster ceiling control joint</td><td>50 ft with relief joints, 30 ft without</td></tr>
+<tr><td>Access panel</td><td>~24 in square</td></tr>
+<tr><td>Integrated ceiling module</td><td>4 or 5 ft</td></tr>
+</table>
+<table>
+<tr><th colspan="2">Glazing</th></tr>
+<tr><td>Tempered vs. float strength</td><td>~4×; heat-strengthened ~2×</td></tr>
+<tr><td>Tempering temperature</td><td>~1200°F</td></tr>
+<tr><td>Standard interior glass</td><td>¼ in</td></tr>
+<tr><td>Full-height frameless</td><td>¼ in minimum, ⅜ in preferred</td></tr>
+<tr><td>Wired glass opening limit</td><td>1296 in² (9 ft²), max 54 in; 45 min</td></tr>
+<tr><td>Clear ceramic</td><td>1 hr ≤ 1296 in²; 3 hr ≤ 100 in²</td></tr>
+<tr><td>Gel-filled</td><td>Up to 2 hr</td></tr>
+<tr><td>Tempered fire-protective</td><td>30 min max</td></tr>
+<tr><td>1-hr corridor wall glazing / door</td><td>45 min / 20 min</td></tr>
+<tr><td>Other 1-hr walls</td><td>60 min</td></tr>
+<tr><td>Safety Category I / II</td><td>150 / 400 ft-lbf</td></tr>
+<tr><td>Category II required</td><td>Panels over 9 ft², and all doors</td></tr>
+<tr><td>Hazardous: near door</td><td>Within 24 in</td></tr>
+<tr><td>Hazardous: tub or shower</td><td>Under 60 in high and within 60 in</td></tr>
+<tr><td>Partial-wall sill exemption</td><td>≥ 18 in above floor</td></tr>
+<tr><td>Two-way mirror light ratio</td><td>5× (10× better)</td></tr>
+<tr><td>Edge-lit etched glass limit</td><td>~18 in</td></tr>
+<tr><td>All-glass height</td><td>30 ft (base-supported) / 75 ft (hung)</td></tr>
+<tr><td>Wood frame shim space</td><td>≥ ¼ in</td></tr>
+<tr><td>Blind-to-glass gap</td><td>≥ 1½ in</td></tr>
+<tr><td>Antireflective glass</td><td>8% reflection → under 1%</td></tr>
+<tr><td>Switchable glass energy savings</td><td>20–30%</td></tr>
+</table>
+<table>
+<tr><th colspan="2">Lighting &amp; Plumbing</th></tr>
+<tr><td>Emergency lighting</td><td>≥ 1 fc (10.8 lux) at floor</td></tr>
+<tr><td>LED life</td><td>Over 50,000 hr</td></tr>
+<tr><td>CFL life</td><td>~10,000 hr</td></tr>
+<tr><td>GU24</td><td>CRI ≥ 80, 40–70 lm/W, 10–30k hr</td></tr>
+<tr><td>HPS efficacy / life</td><td>80–140 lm/W / 10–24k hr</td></tr>
+<tr><td>T8 / T5 diameter</td><td>1 in / ⅝ in</td></tr>
+<tr><td>Low-voltage lamps</td><td>Usually 12 V, need transformer</td></tr>
+<tr><td>Commercial voltages</td><td>120 V incandescent / 277 V fluorescent</td></tr>
+<tr><td>90.1 auto-shutoff threshold</td><td>Buildings over 5000 ft²</td></tr>
+<tr><td>Occupant sensor shutoff</td><td>Within 30 min</td></tr>
+<tr><td>Time-of-day control area</td><td>≤ 25,000 ft², one floor</td></tr>
+<tr><td>Area per control</td><td>2500 ft² (spaces ≤ 10k ft²) / 10,000 ft²</td></tr>
+<tr><td>Override duration</td><td>Up to 4 hr</td></tr>
+<tr><td>Lighting share of building energy</td><td>30–40% (up to 50%)</td></tr>
+<tr><td>Daylight savings (perimeter)</td><td>50–60%</td></tr>
+<tr><td>Daylight depth</td><td>~2.5 × window head height</td></tr>
+<tr><td>Drain slope</td><td>¼ in/ft (⅛ in/ft if over 3 in)</td></tr>
+</table>
+</div>
+<div class="box warn"><b>Heads-up:</b> These notes were made from phone photos. A few numbers were hard to read and are worth checking against the book if there's time:
+<ul>
+<li>Wallboard control-joint spacing (p 1-11).</li>
+<li>One row of Table 1.2 that reads "5 ft (3050 mm)."</li>
+<li>Structural clay tile thicknesses (p 1-34).</li>
+</ul>
+Everything else was clearly legible.</div>
+</section>
+
+</body>
+</html>
